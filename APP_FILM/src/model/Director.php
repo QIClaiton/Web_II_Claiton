@@ -1,18 +1,18 @@
 <?php
-namespace src\Model;
+namespace src\model;
 class Director{
     public string $name;
-    public int $age;
-    public int $yearOfBirth;
+    public ?int $age;
+    public int $birthDate;
 
     public function __construct(
         string $name, 
-        int $age,
-        int $yearOfBirth
+        ?int $age = null,
+        int $birthDate
 )
     {
         $this->name = $name;
         $this->age = $age;
-        $this->yearOfBirth = $yearOfBirth;
+        $this->birthDate = $birthDate;
     }
 }

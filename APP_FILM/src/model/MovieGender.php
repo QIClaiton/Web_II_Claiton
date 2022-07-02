@@ -1,12 +1,13 @@
 <?php
 
-namespace src\Model;
+namespace src\model;
 
 enum MovieGender {
     case HORROR;
     case ACTION;
     case ADVENTURE;
     case COMEDY;
+    case FANTASY;
 
     public function toString()
     {

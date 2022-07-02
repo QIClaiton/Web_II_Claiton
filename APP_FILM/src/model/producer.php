@@ -1,6 +1,6 @@
 <?php
-namespace src\Model;
-class Producer{
+namespace src\model;
+class Producer {
     public string $name;
     public string $address;
     public string $phone;
