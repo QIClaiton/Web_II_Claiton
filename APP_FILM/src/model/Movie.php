@@ -1,5 +1,5 @@
 <?php
-namespace src\Model;
+namespace src\model;
 class Movie { 
     public string $title;
     public int $duration;
