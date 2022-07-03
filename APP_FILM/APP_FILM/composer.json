@@ -1,0 +1,9 @@
+{
+    "name": "windows/app_film",
+    "autoload": {
+        "psr-4": {
+            "Windows\\AppFilm\\": "src/"
+        }
+    },
+    "require": {}
+}
